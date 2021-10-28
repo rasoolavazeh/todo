@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/todos")
+@CrossOrigin(origins = "*git ")
 public class TodoController {
 
     private final TodoRepository todoRepository;

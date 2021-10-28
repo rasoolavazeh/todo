@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import { Button } from 'antd';
 import './App.css';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      <TodoList />
     </div>
   );
 }

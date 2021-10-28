@@ -1,9 +1,8 @@
 import React from "react";
 import { Form, Row, Col, Button, Input } from 'antd';
 import {PlusCircleFilled} from '@ant-design/icons';
-import { render } from "@testing-library/react";
 
-const todoForm = ({onFormSubmit}) => {
+const TodoForm = ({onFormSubmit}) => {
     const [form] = Form.useForm();
 
     const onFinish = () => {
@@ -40,4 +39,4 @@ const todoForm = ({onFormSubmit}) => {
     )
 }
 
-export default todoForm;
+export default TodoForm;
